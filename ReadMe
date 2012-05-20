@@ -1,0 +1,10 @@
+1.qLearner.py
+
+2.clustering.py
+
+### Name of the directory 6NewsGroups. And 6 is the K in K-means algorithm.
+### Feel free to change if you are testing with you documents and k.                  
+if __name__ == '__main__' :
+    compute = clustering()
+    compute.setupdocuments("6NewsGroups")
+    compute.KmeansClustering(6)
